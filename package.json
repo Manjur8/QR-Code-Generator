@@ -1,0 +1,22 @@
+{
+  "name": "qr-code-genertor",
+  "version": "1.0.0",
+  "description": "Project: QR Code Generator",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "QR",
+    "Code",
+    "Genertor"
+  ],
+  "author": "Manjur",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.11",
+    "qr-image": "^3.2.0"
+  }
+}
